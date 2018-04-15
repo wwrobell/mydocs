@@ -1,0 +1,30 @@
+kompilacja vs interpretacja
+przetlumaczenie calosci na poczatku vs tlumacz zdania po zdaniu
+-----------
+just in time compiler - kompilacja "na zapas do przodu" JIT
+-----
+model komputera fon neumana? ? model harvardzki
+-----
+kompilacja warunkowa : uzycie preprocesora #if #ifndef #endif
+----
+reprezentacja liczb:
+IEEE754 - norma do liczb zmiennoprzecinkowych
+----
+big endian, little endian - sposob interpretacji kolejnych bajtow
+---------------------
+int (*p11) (double);  //wskaznik do funkcji o parametrze double zwracajaca inta // czytanie jak u grebosza
+---------------------
+int f1 (double x){
+    return x;        <---- x    parametr
+}
+
+f1(x1) <----- x1   argument
+
+----------
+TUTORIAL do 8 punktu
+----------
+wskaznik do referencji? referencja do wskaznika?
+----------
+sprawdzic czy n-ty bit jest 1 czy 0 (maski bitowe, operatory bitowe AND OR)
+//// sygnatura do zadania
+void printIntss....(const char *pCh, int size)

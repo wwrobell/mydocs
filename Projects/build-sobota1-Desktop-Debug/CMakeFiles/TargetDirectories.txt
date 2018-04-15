@@ -1,0 +1,3 @@
+/home/moto/Projects/build-sobota1-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/moto/Projects/build-sobota1-Desktop-Debug/CMakeFiles/sobota1.dir
+/home/moto/Projects/build-sobota1-Desktop-Debug/CMakeFiles/edit_cache.dir

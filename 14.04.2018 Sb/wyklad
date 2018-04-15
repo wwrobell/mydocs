@@ -1,0 +1,25 @@
+
+paradygmanty programowania - model przy tworzeniu rozwiazania (rodzaj klockow z ktorych budujemy cos)
+
+jezyk imperatywny - zbior instrukcji (rozkazow) zmieniajacych stan maszyny
+jezyk deklaratywny - definicja problemu "wybierz imiona zaczynajace sie na A" SQL
+
+optymalizacja kodu przez kompilator
+c++ imperatywny, obiektowy, proceduralny
+
+zmienna lokalna (automatyczna) - lokowana na stosie (czas zycia w scopach)
+zmienna globalna - zycie przez caly czas programu - obszar zmiennych globalnych
+zmienna dynamiczna :new/ delete - lokowana na stercie
+static - dostep lokalny, czas zycia globalnych
+
+deklaracja - przedstawia kompilatorowi nazwe oraz typ [sygnatura!], powiazanie nazwy z typem [extern int x]
+definicja funkcji - cialo funkcji, instrukcje
+
+definicja - przydzielenie pamieci; [int x]
+
+inicjalizacja = przypisanie wartosci [int z = 10]
+
+
+*programowanie wielowatkowe
+---------------------------
+jezyki statycznie i dynamicznie typowane

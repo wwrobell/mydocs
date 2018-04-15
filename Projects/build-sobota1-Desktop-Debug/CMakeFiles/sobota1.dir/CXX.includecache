@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/moto/Projects/sobota1/helper.cpp
+
+/home/moto/Projects/sobota1/helper.h
+
+/home/moto/Projects/sobota1/main.cpp
+iostream
+-
+helper.h
+/home/moto/Projects/sobota1/helper.h
+

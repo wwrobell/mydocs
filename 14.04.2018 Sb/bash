@@ -1,0 +1,2 @@
+[moto@localhost sobota1]$ g++ -o main.proc -E main.cpp
+[moto@localhost sobota1]$ g++ --help          
