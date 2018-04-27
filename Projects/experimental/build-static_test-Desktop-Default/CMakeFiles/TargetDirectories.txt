@@ -1,3 +1,0 @@
-/home/moto/Projects/experimental/build-static_test-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/moto/Projects/experimental/build-static_test-Desktop-Default/CMakeFiles/static_test.dir
-/home/moto/Projects/experimental/build-static_test-Desktop-Default/CMakeFiles/edit_cache.dir

@@ -1,3 +1,0 @@
-/home/moto/Projects/experimental/build-bitfields-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/moto/Projects/experimental/build-bitfields-Desktop-Default/CMakeFiles/bitfields.dir
-/home/moto/Projects/experimental/build-bitfields-Desktop-Default/CMakeFiles/edit_cache.dir

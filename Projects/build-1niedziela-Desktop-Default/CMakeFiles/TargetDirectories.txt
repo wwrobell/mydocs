@@ -1,3 +1,0 @@
-/home/moto/Projects/build-1niedziela-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/moto/Projects/build-1niedziela-Desktop-Default/CMakeFiles/1niedziela.dir
-/home/moto/Projects/build-1niedziela-Desktop-Default/CMakeFiles/edit_cache.dir

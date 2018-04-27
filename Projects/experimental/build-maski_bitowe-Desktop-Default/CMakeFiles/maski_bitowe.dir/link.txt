@@ -1,1 +1,0 @@
-/usr/bin/g++    -rdynamic CMakeFiles/maski_bitowe.dir/main.cpp.o  -o maski_bitowe 

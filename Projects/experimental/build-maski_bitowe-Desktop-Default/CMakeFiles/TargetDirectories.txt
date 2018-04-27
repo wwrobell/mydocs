@@ -1,3 +1,0 @@
-/home/moto/Projects/experimental/build-maski_bitowe-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/moto/Projects/experimental/build-maski_bitowe-Desktop-Default/CMakeFiles/maski_bitowe.dir
-/home/moto/Projects/experimental/build-maski_bitowe-Desktop-Default/CMakeFiles/edit_cache.dir

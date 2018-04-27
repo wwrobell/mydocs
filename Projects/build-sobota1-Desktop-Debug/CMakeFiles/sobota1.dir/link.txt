@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/sobota1.dir/main.cpp.o CMakeFiles/sobota1.dir/helper.cpp.o  -o sobota1 

@@ -1,1 +1,0 @@
-/usr/bin/g++    -rdynamic CMakeFiles/testfunkcji.dir/main.cpp.o CMakeFiles/testfunkcji.dir/pow.cpp.o CMakeFiles/testfunkcji.dir/home/moto/googletest/googletest/src/gtest-all.cc.o CMakeFiles/testfunkcji.dir/home/moto/googletest/googlemock/src/gmock-all.cc.o  -o testfunkcji -lpthread 

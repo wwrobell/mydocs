@@ -1,3 +1,0 @@
-/home/moto/Projects/experimental/build-test_myfunction-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/moto/Projects/experimental/build-test_myfunction-Desktop-Default/CMakeFiles/testfunkcji.dir
-/home/moto/Projects/experimental/build-test_myfunction-Desktop-Default/CMakeFiles/edit_cache.dir
