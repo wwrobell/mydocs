@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/class_size.dir/main.cpp.o  -o class_size 

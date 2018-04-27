@@ -2,12 +2,17 @@
 
 using namespace std;
 
+void printIntsFromRawMem(const char *pCh, int size){
+    for (int i = 0; i<size; ++i)
+        cout << int (*(pCh + i));
+}
+
 void castDemo1()
 {
-    long lN = 578437695752307201;
+    long lN = 578437695752307201; //0b 1000 00000111 00000110 00000101 00000100 00000011 00000010 00000001
     cout << "sizeof(long) = " << sizeof(long) << endl;
     cout << lN << " as a byte stream = ";
-    //printIntsFromRawMem((char *) &lN, sizeof(lN));
+    printIntsFromRawMem((char *) &lN, sizeof(lN));
     cout << endl;
 }
 
@@ -22,11 +27,11 @@ void castDemo2()
 {
     int ia1[2] = {84281096, 16909060};
     cout << "int ia1[2] = {84281096, 16909060} as a byte stream = ";
-    //printIntsFromRawMem((char *) ia1, 8);
+    printIntsFromRawMem((char *) ia1, 8);
 
     int ia2[2] = {67305985, 134678021};
     cout << "int ia2[2] = {67305985, 134678021} as a byte stream = ";
-    //printIntsFromRawMem((char *) ia2, 8);
+    printIntsFromRawMem((char *) ia2, 8);
     cout << endl;
 }
 
@@ -34,7 +39,7 @@ void castDemo3()
 {
     float dN = 1.5399896E-36;
     cout << dN << " as a byte stream = ";
-    //printIntsFromRawMem((char *) &dN, 4);
+    printIntsFromRawMem((char *) &dN, 4);
     cout << endl;
 }
 
@@ -79,18 +84,21 @@ void f2()
     long i = 0;
     long lArr[TBL_SIZE] = {7, 15};
     for (i = 0; i <= TBL_SIZE; ++i) {
-        *(&lArr[TBL_SIZE - 1] - i) = 0;
+        // na MACu petla nieskonczona -> war (i <= TBL_SIZE) zawsze spelniony (MAC ++i inkrementacja o 0? / powrot i do pierwotnej wartosci z 79 lini?)
+        //cout << *(&lArr[TBL_SIZE - 1] - i) << endl;
+        cout << "i przed zerowaniem: " << i;
+        *(&lArr[TBL_SIZE - 1] - i) = 0; //&lArr[1] - 2
+        cout <<  " ;po zerowaniu: " << i << endl;
     }
 }
 
 int main()
 {
-    f2(); //dlaczego u nas dziala a na MACu petla nieskonczona
+    //f2(); //dlaczego u nas dziala a na MACu petla nieskonczona
+    castDemo1();
+    castDemo2();
+    castDemo3();
+    castDemo4();
+    castDemo5();
     return 0;
 }
-
-//|||  napisac funkcje
-//int x=1,y=2;
-//swap2ints(x,y)
-//cout<<"x= "<<x...
-//   wersja z referencjami lub wskaznikami
