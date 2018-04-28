@@ -1,0 +1,2 @@
+// zaimplementowac funkcje Ackermanna [rekursja zagniezdzona]+
+// fibonacci z uzyciem cache (mozna uzyc mapy)

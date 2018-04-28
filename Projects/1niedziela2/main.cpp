@@ -84,10 +84,10 @@ void f2()
     long i = 0;
     long lArr[TBL_SIZE] = {7, 15};
     for (i = 0; i <= TBL_SIZE; ++i) {
-        // na MACu petla nieskonczona -> war (i <= TBL_SIZE) zawsze spelniony (MAC ++i inkrementacja o 0? / powrot i do pierwotnej wartosci z 79 lini?)
+        // na MACu petla nieskonczona -> war (i <= TBL_SIZE) zawsze spelniony
         //cout << *(&lArr[TBL_SIZE - 1] - i) << endl;
         cout << "i przed zerowaniem: " << i;
-        *(&lArr[TBL_SIZE - 1] - i) = 0; //&lArr[1] - 2
+        *(&lArr[TBL_SIZE - 1] - i) = 0; //&lArr[1] - 2 //wyjscie poza zakres tablicy -> wyzerowanie zmiennej long i
         cout <<  " ;po zerowaniu: " << i << endl;
     }
 }
@@ -95,10 +95,13 @@ void f2()
 int main()
 {
     //f2(); //dlaczego u nas dziala a na MACu petla nieskonczona
-    castDemo1();
-    castDemo2();
-    castDemo3();
-    castDemo4();
-    castDemo5();
+    int a1[] = {1,2,3,4,5};
+    short * p1 = (short*) a1;
+    cout << *(p1+2); //1;0;2
+//    castDemo1();
+//    castDemo2();
+//    castDemo3();
+//    castDemo4();
+//    castDemo5();
     return 0;
 }
