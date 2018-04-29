@@ -5,8 +5,11 @@ wzorce projektowe
 // programowanie obiektowe
 // struktury danych
 	> "odwrocic liste"
+	> "jaka strukture danych uzylbys do .. " *drzewa binarnego
+	> "zaproponowac interfejs listy"
 
 // analiza algorytmow
 	> oszacowac zlozonosc obliczeniowa algorytmu
 	
 // ogolne zasady projektowania
+	> refaktoryzacja kodu przy uzyciu wzorca projektowego

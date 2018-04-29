@@ -1,0 +1,95 @@
+1. KOSZT ZAMORTYZOWANY
+
+* kartkowka z dotychczasowej teorii za 2 tyg. ( 
+ >wyszukiwanie[O(N); O(logN)<- wyszukiwanie binarne[posortowany ciag]]
+ >sortowanie[selection, insert, bubble, mergesort, quicksort] ) (2 typowe zlozonosci + 1* punkt 2
+ >SOLID
+)
+
+* poeksperymentowac z implementacjami i testami algorytmow
+* rekursja
+* algorytm najkrotszej sciezki
+
+2. SORTOWANIE PRZEZ ZLICZANIE (+kubelkowe) - wydajne algorytmy zakladajac ze znamy zakres danych
+"czynnik staly pomijamy przy szacowaniu zlozonosci" O(2*N) ~ O(N)
+
+--OOP--
+
+polaczenie klas na sztywno:
+[A] -- [B]
+
+interfejs:
+[A] -- [IB]
+	|
+       [B]
+
+3. SOLID
+
+ >S - klasa robi to co jest potrzebne - nie jest wieksza niz byc powinna
+ >O - rozszerzalnosc! dodawanie (np. nowych algorytmow sortowania) nie wymaga modyfikacji w kodzie (podpinamy inna klase)
+ >L - polaczenie przez interfejs (wiaze sie z polimorfizem)
+ >I - zastosowanie wielu "malych" interfejsow > jeden ogolny [printable() itd]
+ >D - 
+
+4. DESIGN PATTERNS - sposob rozwiazania jakiegos ogolnego problemu, dobre praktyki
+
+ >FABRYKA /Builder, Factory Method 	Tworzenie obiektow, pozybycie sie uzycia new, oddzielenie dzialania od sposobu tworzenia
+ >STRATEGIA				"Kazda implementacja sortowania moze byc inna strategiA" Chcemy zeby cos sie wykonalo, nie interesuje nas jak to bedzie wykonane.
+ >SINGLETON 				Zapewnia 1 instancje klasy
+ >OBSERWATOR 				Obserwuje zdarzenie, kiedy zdarzenie sie pojawi - otrzymuje powiadomienie
+ >DEKORATOR				Podczas skladania dokladamy kolejne zadania. "Wydrukuj ale tez zaloguj" (przyklad Rycerz/ RycerzMaruda - RycerzMaruda zawiera w sobie 						rycerza ale jest rozszerzony o marudzenie)
+ >FASADA				Przyklad z call-center : przekierowanie.
+ >POLECENIE (COMMAND)			Przyklad Klikanie w Menu : kazda pozycja ma podpieta akcje (polecenie)
+ >STAN (STATE)
+ >ITERATOR 				hasNext(),next()		
+
+5. UML
+ 
+ >DIAGRAM SEKWENCJI
+ >DIAGRAM KLAS np. klasa czysto abstrakcyjna <<interface>>
+
+6. STRUKTURY -> link.txt
+
+ >LIFO - last in first out
+ >INTERFEJS - zbior metod dla danej struktury
+ .jakie metody?
+ .jak przechowywac dane?
+  
+class Stack{
+	pop(..)
+	put(..)
+}
+
+np. class StackAsVector :public Stack
+	//implementacja
+ 
+priorityQueue - mozna uzyc kopca
+
+A) LISTA
+
+	[5|ptr] -> [2|ptr] -> [7|ptr]
+	 head       tailtailtailtail
+
+B) LISTA DWUKIERUNKOWA
+  - wskazniki to kolejnego i poprzedniego ; wezel = dane, i 2 wskazniki
+
+C) MAPA
+  - struktura dwuwymiarowa: klucz - wartosc
+
+D) ZBIOR (SET)
+ isElem()
+ "ilosc unikalnych slow" odsiewanie duplikatow
+
+E) DRZEWO BINARNE skrot BST
+
+   [v1]
+   /  \
+  [v2][v4]
+ /  \  /  \
+
+//inorder, postorder (skladanie listy z drzewa)
+
+7. TABLICA ASOCJACYJNA Z FUNKCJA HASZUJACA
+
+//funkcjonalnosc - cos jest funkcjonalne lub nie jest (cecha)
+
