@@ -1,0 +1,36 @@
+1.Polimorfizm - jeden ktory reprezentuje wiele
+
+void drawAll(const vector<Figure*> &v){
+	for e in v:					<polimorfizm inkluzyjny {na wskaznikach}>
+		e.draw()		
+}
+
+wiaze sie z zasada Liskov
+
+
+>polimorfizm ad-hoc
+np. funkcje o tej samej nazwie a roznym dzialaniu (np. operatory)
+	1 + 2   vs   "ala" + "xyz"
+
+polimorfizm - czasu kompilacji lub czasu wykonania (statyczny vs dynamiczny)
+
+>polimorfizm parametryczny: [ustalona struktura, wstawianie w miejsca] [trudno modyfikowac zachowanie] 
+
+szablony - "konstruktory typow" 
+
+uzycie funkcji wirtualnych - tablica funkcji wirtualnych
+
+
+*programowanie generyczne vs generatywne
+*RAII
+{
+    C c1();
+} <- wywola sie destruktor
+
+Dobra praktyka:
+Oddzielenie sposobu tworzenia od implementacji cech
+
+toString()
+interfejs np.
+class Lista : public Showable ??
+
