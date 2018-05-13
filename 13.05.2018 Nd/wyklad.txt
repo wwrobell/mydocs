@@ -1,0 +1,3 @@
+*Wzorzec visitor:
+
+Jedna nowa klasa ktora ma na zadanie ewaluowac wyrazenia -> Nie trzeba zmieniac interfejsu expression
