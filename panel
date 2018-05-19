@@ -2,6 +2,7 @@ TCP/UDP
 wzorce projektowe
 
 // programowanie niskopoziomowe
+	> tablica intow, wypisac bajt po bajcie
 // programowanie obiektowe
 // struktury danych
 	> "odwrocic liste"

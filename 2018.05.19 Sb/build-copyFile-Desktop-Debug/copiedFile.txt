@@ -1,0 +1,180 @@
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas pochodnych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas pochodnych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas pochodnych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas pochodnych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas pochodnych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas pochodnych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas pochodnych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas pochodnych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas pochodnych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open

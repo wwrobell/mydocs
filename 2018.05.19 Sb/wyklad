@@ -1,0 +1,64 @@
+//Kolejnosc na liscie inicjalizacyjnej nie ma znaczenia:
+//1) Tworzenie Klasy Bazowej (kolejno pola w klasie)
+//2) Tworzenie Klas Skladowych (kolejno pola w klasie)
+
+//Potencjalny problem w przekazywaniu argumentow do funkcji przez wartosc - "slicing" (konstruktor kopiujacy)
+
+Rule of three:
+Jesli potrzebujemy wlasny destruktor/konstruktor kopiujacy/operator przypisania
+-> potrzebujemy zaimplementowac wszystkie 3
+
+INPUT/OUTPUT [https://github.com/marcinlos/cmake-gtest/tree/master/src/io]
+strumien
+-plikowy
+FILE* file = fopen(path, "w");
+
+unformatted - bajt po bajcie (fwrite)
+formatted - do stringow
+
+iostream - obiektowe opakowanie IO z C
+http://en.cppreference.com/w/cpp/io/basic_filebuf/open
+
+WYJATKI(EXCEPTIONS)
+uwaga: catch z klasa bazowa zlapie obiekty klasy pochodnej!
+slicing w przypadku lapania przez wartosc!
+
+(exceptions.cpp)
+throw; leci MyException
+throw e; leci std::exception
+
+(sprzatanie)
+int* a new int[10];
+try{
+    throw 3;
+}
+catch(...){
+    delete[] a;
+    throw;
+}
+delete[] a;
+}
+
+2 wyjatki naraz ---> std::terminate 
+* nie powinno sie rzucac z destruktorow
+
+
+
+(Basic guarantee : zawsze powinno byc splenione) [github guarantees.cpp]
+
+SZABLONY
+(umieszczamy w plikach naglowkowych)
+templates.cpp -> specjalizacja szablonow
+
+//KARTKOWKA
+*algorytmy drzewowe i listowe 
+Struct Node{
+	Node* next;
+	double val;
+}
+
+niekoniecznie obiektowe, mozna na funkcjach (Node* head)
+
+*kolejnosc wywolan konstruktorow destruktorow
+*szablon skladnia (bez specjalizacji)
+
